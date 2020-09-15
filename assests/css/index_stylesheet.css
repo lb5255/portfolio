@@ -1,0 +1,89 @@
+body {
+    background-image: url("../media/background.svg");
+    background-color: #23232e;
+    font-family: 'Aleo';
+    margin: 0;
+    padding: 0;
+}
+
+#center {
+    margin-top: 17%;
+    display: flex; 
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+    align-content: center;
+}
+
+#title {
+    font-size: 35px;
+    color: white;
+    text-align: center;
+}
+
+#name {
+    font-size: 35px;
+    color: #f7567c;
+}
+
+.ghost-button {
+    font-size: 20px;
+    display: inline-block;
+    width: 260px;
+    padding: 10px;
+    color: white;
+    border: 2px solid #fff;
+    text-align: center;
+    outline: none;
+    text-decoration: none;
+    transition: border-color 0.3s ease-out,
+        color 0.3s ease-out;
+}
+.ghost-button:hover, 
+.ghost-button:active {
+    color: #66d8ed;
+    border-color: #66d8ed;
+    transition: border-color 0.4s ease-in,
+        color 0.4s ease-in;
+}
+
+@media screen and (max-width: 1200px) {
+    #center { margin-top: 25%;}
+    
+}
+
+@media screen and (max-width: 800px) {
+    #center { margin-top: 30%;}
+
+}
+
+@media screen and (max-width: 600px) {
+    #center { margin-top: 36%;}
+    #name { font-size: 30px}
+    #title {font-size: 30px}
+    .ghost-button {font-size: 20px;}
+}
+
+@media screen and (max-width: 480px) {
+    #center { margin-top: 45%;}
+    #name { font-size: 27px}
+    #title {font-size: 27px}
+    .ghost-button {font-size: 17px;}
+}
+
+@media screen and (max-width: 390px) {
+    #center { margin-top: 45%;}
+    #name { font-size: 24px}
+    #title {font-size: 24px}
+    .ghost-button {font-size: 17px;}
+}
+
+@media screen and (max-width: 320px) {
+    #center { margin-top: 70%;}
+    #name { font-size: 19px}
+    #title {font-size: 19px}
+    .ghost-button {
+        font-size: 16px;
+        width: 160px;
+    }
+}
