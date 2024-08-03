@@ -95,8 +95,8 @@ a:hover {text-decoration: underline; }
 }
 #email:hover, 
 #email:active {
-    color: #4386D0;
-    border-color: #4386D0;
+    color: #f7567c;
+    border-color: #f7567c;
     transition: border-color 0.4s ease-in,
         color 0.4s ease-in;
 }
